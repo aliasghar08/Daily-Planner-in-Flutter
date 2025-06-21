@@ -1,4 +1,4 @@
-# 🗓️ Daily Planner App
+i# 🗓️ Daily Planner App
 
 A smart and beautiful habit & task management app built with Flutter. Designed to help users plan their daily goals, track habits, and receive timely reminders — all powered by Firebase and local notifications.
 
@@ -8,7 +8,6 @@ A smart and beautiful habit & task management app built with Flutter. Designed t
 
 - ✅ **User Authentication** (Firebase Auth)
 - 🔔 **Local Notifications** via `awesome_notifications`
-- 🧠 **Smart Habit Tracker** (Water, Exercise, Productivity, etc.)
 - 🌙 **Light/Dark Theme Support** with persistence
 - 📅 **Task Scheduling**
 - 📌 **Password Reset & Change Password**
@@ -35,7 +34,6 @@ A smart and beautiful habit & task management app built with Flutter. Designed t
 - Awesome Notifications
 - Shared Preferences
 - Adaptive Theme Mode
-- Android & iOS support (configured via `AndroidManifest.xml` & `Info.plist`)
 
 ---
 
