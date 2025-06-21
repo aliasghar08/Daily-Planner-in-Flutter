@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777337977048",
+    "project_id": "daily-planner-593d8",
+    "storage_bucket": "daily-planner-593d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777337977048:android:792f4ba50ada24169a3fad",
+        "android_client_info": {
+          "package_name": "com.example.daily_planner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIQJb6DHJ6WTw8Vwd04Vjf5Z380uIHWkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
