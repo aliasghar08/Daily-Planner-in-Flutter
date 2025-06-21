@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class NotificationService {
   static bool _initialized = false;
 
-  /// Call this once at app startup (e.g., in main.dart)
+  
   static Future<void> initialize() async {
     if (_initialized) return;
 
@@ -23,7 +23,7 @@ class NotificationService {
     _initialized = true;
   }
 
-  /// Call this when user enables notification from settings
+ 
   static Future<void> requestPermissionIfNeeded() async {
     final isAllowed = await AwesomeNotifications().isNotificationAllowed();
     if (!isAllowed) {
@@ -38,7 +38,7 @@ class NotificationService {
     required DateTime scheduledTime,
   }) async {
     try {
-      await initialize(); // Ensure initialized before use
+      await initialize();
 
       await AwesomeNotifications().createNotification(
         content: NotificationContent(
@@ -56,7 +56,7 @@ class NotificationService {
           minute: scheduledTime.minute,
           second: 0,
           millisecond: 0,
-          preciseAlarm: true, // 👈 important!
+          preciseAlarm: true, 
           repeats: false,
         ),
       );
