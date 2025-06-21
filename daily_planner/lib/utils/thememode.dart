@@ -6,11 +6,7 @@ final ValueNotifier<ThemeMode> themeNotifier = ValueNotifier(ThemeMode.light);
 class ThemePreferences {
   static const _themeKey = 'theme_mode';
 
-  // static Future<void> loadTheme() async {
-  //   final prefs = await SharedPreferences.getInstance();
-  //   final isDark = prefs.getBool(_themeKey) ?? false;
-  //   themeNotifier.value = isDark ? ThemeMode.dark : ThemeMode.light;
-  // }
+ 
 
   static Future<void> loadTheme() async {
     final prefs = await SharedPreferences.getInstance();
@@ -19,10 +15,7 @@ class ThemePreferences {
     themeNotifier.value = isDark ? ThemeMode.dark : ThemeMode.light;
   }
 
-  // static Future<void> saveTheme(bool isDarkMode) async {
-  //   final prefs = await SharedPreferences.getInstance();
-  //   await prefs.setBool(_themeKey, isDarkMode);
-  // }
+ 
 
   static Future<void> saveTheme(bool isDarkMode) async {
     final prefs = await SharedPreferences.getInstance();
