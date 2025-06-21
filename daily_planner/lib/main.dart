@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'package:firebase_auth/firebase_auth.dart'; // 👈 Needed for auth check
+import 'package:firebase_auth/firebase_auth.dart'; 
 import 'package:daily_planner/screens/changePass.dart';
 import 'package:daily_planner/screens/forgotPass.dart';
 import 'package:daily_planner/screens/home.dart';
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           theme: ThemeData.light(),
           darkTheme: ThemeData.dark(),
           themeMode: currentMode,
-          home: const AuthWrapper(), // 👈 Replace initialRoute with wrapper
+          home: const AuthWrapper(), 
           routes: {
             "/home": (context) => const MyHome(),
             "/login": (context) => const LoginPage(),
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/// 👇 AuthWrapper checks if user is logged in
+
 class AuthWrapper extends StatelessWidget {
   const AuthWrapper({super.key});
 
