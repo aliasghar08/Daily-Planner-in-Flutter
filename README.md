@@ -36,11 +36,3 @@ A smart and beautiful habit & task management app built with Flutter. Designed t
 - Adaptive Theme Mode
 
 ---
-
-## 🛠 Setup Instructions
-
-1. **Clone the repo:**
-
-   ```bash
-   git clone https://github.com/your-username/daily_planner.git
-   cd daily_planner
